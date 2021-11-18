@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4050EB882746B703006412D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4050EB872746B703006412D0 /* Card.swift */; };
 		BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */; };
-		BBB6980F2746A777004F79CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980E2746A777004F79CB /* ContentView.swift */; };
+		BBB6980F2746A777004F79CB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980E2746A777004F79CB /* CardView.swift */; };
 		BBB698112746A778004F79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698102746A778004F79CB /* Assets.xcassets */; };
 		BBB698142746A778004F79CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698132746A778004F79CB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4050EB872746B703006412D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		BBB698092746A777004F79CB /* ApeAlFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApeAlFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApeAlFlyApp.swift; sourceTree = "<group>"; };
-		BBB6980E2746A777004F79CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBB6980E2746A777004F79CB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BBB698102746A778004F79CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB698132746A778004F79CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
-				BBB6980E2746A777004F79CB /* ContentView.swift */,
+				BBB6980E2746A777004F79CB /* CardView.swift */,
+				4050EB872746B703006412D0 /* Card.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				BBB698122746A778004F79CB /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB6980F2746A777004F79CB /* ContentView.swift in Sources */,
+				BBB6980F2746A777004F79CB /* CardView.swift in Sources */,
+				4050EB882746B703006412D0 /* Card.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
