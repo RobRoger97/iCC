@@ -8,21 +8,29 @@
 import SwiftUI
 
 extension Color {
-    
+    static let lightPurple = Color(red: 0.853, green: 0.663, blue: 0.859)
 }
 
 struct CardView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .foregroundColor(.pink)
+                .foregroundColor(.gray)
                 .frame(width: 323, height: 559)
                 .padding()
-            Text("\(card.titolo)")
-                .bold()
-                .foregroundColor(.white)
-                .multilineTextAlignment(.center)
-                .padding(top)
+            VStack{
+                Text("\(first_card.titolo)")
+                                .bold()
+                                .foregroundColor(.black)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                Text("\(first_card.testo)")
+                    .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                Image("\(first_card.image)")
+            }
+            
             
         }
     }
