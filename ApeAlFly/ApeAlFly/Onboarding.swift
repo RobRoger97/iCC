@@ -40,7 +40,7 @@ struct PageView: View {
     var body: some View {
         VStack {
             Text("Welcome to iCanCreate")
-                .font(.title)
+                .font(.largeTitle)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 1.0)
@@ -192,6 +192,5 @@ struct PageView5: View {
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingView(showOnboarding: .constant(false))
-
     }
 }

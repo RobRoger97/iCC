@@ -26,7 +26,7 @@ struct ContentView: View {
                 .scaleEffect(1.2)
             }
         }
-    .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView(showOnboarding: $showOnboarding)
+    .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView2(showOnboarding: $showOnboarding)
         })
     }
 }
