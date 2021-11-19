@@ -11,7 +11,7 @@ import SwiftUI
 struct ApeAlFlyApp: App {
     var body: some Scene {
         WindowGroup {
-            CardView()
+            TotalView()
         }
     }
 }
