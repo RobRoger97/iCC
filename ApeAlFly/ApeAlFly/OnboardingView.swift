@@ -44,7 +44,7 @@ struct OnboardingView: View {
                 PageView(
                 imageName: "Handspink",
                 title: "CHOOSE THE DECK",
-                description: "based on the level you are \n interested to practice on"
+                description: "based on the level you are \n interested to practice on", showsDismissButton: false, showOnboarding: $showOnboarding
             )
             }
             
@@ -56,7 +56,7 @@ struct OnboardingView: View {
             PageView(
                 imageName: "pencil",
                 title: "LOOK OUT \n FOR THE TOOLS",
-                description: "To play some cards you may need \n extra tools — like pen and paper"
+                description: "To play some cards you may need \n extra tools — like pen and paper", showsDismissButton: false, showOnboarding: $showOnboarding
             )
             }
             
@@ -68,7 +68,7 @@ struct OnboardingView: View {
             PageView(
                 imageName: "Handspink",
                 title: "DISCOVER \n NEW CARDS",
-                description: "by shaking your iPhone and \n generating a new deck of cards"
+                description: "by shaking your iPhone and \n generating a new deck of cards", showsDismissButton: false, showOnboarding: $showOnboarding
             )
             }
             
@@ -77,17 +77,13 @@ struct OnboardingView: View {
                     Image("pinklines")
                         .scaleEffect(1.2)
                         .padding()
-                        .offset(x:-100, y: -235)
+                        .offset(x:-100, y: -275)
                 PageView(
                     imageName: "Handspink",
                     title: "SHAKE TO\n RANDOMIZE",
-                    description: "based on the level you are \n interested to practice on"
+                    description: "based on the level you are \n interested to practice on", showsDismissButton: true, showOnboarding: $showOnboarding
                 )
                 }
-//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-//                    Text("Start")
-//                        .padding(.top)
-//                }
             }
             
             
@@ -109,6 +105,8 @@ struct PageView: View {
     let imageName: String
     let title: String
     let description: String
+    let showsDismissButton: Bool
+    @Binding var showOnboarding: Bool
     
     var body: some View {
         VStack(spacing: 30) {
@@ -129,6 +127,19 @@ struct PageView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250, height: 250)
                 .padding(.vertical)
+            
+            if showsDismissButton {
+                Button(action: {
+                    showOnboarding.toggle()
+                }, label: {
+                    Text("Start")
+                        .bold()
+                        .foregroundColor(.white)
+                        .frame(width: 200, height: 50)
+                        .background(Color.blue)
+                        .cornerRadius(6)
+                })
+            }
         }
     }
 }

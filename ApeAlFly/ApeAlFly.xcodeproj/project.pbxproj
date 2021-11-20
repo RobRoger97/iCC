@@ -12,7 +12,7 @@
 		BBB698112746A778004F79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698102746A778004F79CB /* Assets.xcassets */; };
 		BBB698142746A778004F79CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698132746A778004F79CB /* Preview Assets.xcassets */; };
 		C607922A2746AA4D009665E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60792292746AA4D009665E4 /* Launch Screen.storyboard */; };
-		C66AA4C42747EEBC006E45AD /* Onboarding test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66AA4C32747EEBC006E45AD /* Onboarding test.swift */; };
+		C66AA4C42747EEBC006E45AD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66AA4C32747EEBC006E45AD /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		BBB698102746A778004F79CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB698132746A778004F79CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C60792292746AA4D009665E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		C66AA4C32747EEBC006E45AD /* Onboarding test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding test.swift"; sourceTree = "<group>"; };
+		C66AA4C32747EEBC006E45AD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			children = (
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
 				BBB6980E2746A777004F79CB /* ContentView.swift */,
-				C66AA4C32747EEBC006E45AD /* Onboarding test.swift */,
+				C66AA4C32747EEBC006E45AD /* OnboardingView.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				C60792292746AA4D009665E4 /* Launch Screen.storyboard */,
 				BBB698122746A778004F79CB /* Preview Content */,
@@ -146,7 +146,7 @@
 			files = (
 				BBB6980F2746A777004F79CB /* ContentView.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,
-				C66AA4C42747EEBC006E45AD /* Onboarding test.swift in Sources */,
+				C66AA4C42747EEBC006E45AD /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApeAlFly/Preview Content\"";
@@ -295,7 +296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApeAlFly/Preview Content\"";
@@ -325,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

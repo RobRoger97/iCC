@@ -26,6 +26,7 @@ struct ContentView: View {
                 .scaleEffect(1.2)
             }
         }
+    .navigationTitle("Decks")
     .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView(showOnboarding: $showOnboarding)
         })
     }
