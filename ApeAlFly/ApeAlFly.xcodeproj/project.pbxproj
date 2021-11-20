@@ -12,7 +12,6 @@
 		BBB698112746A778004F79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698102746A778004F79CB /* Assets.xcassets */; };
 		BBB698142746A778004F79CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698132746A778004F79CB /* Preview Assets.xcassets */; };
 		C607922A2746AA4D009665E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60792292746AA4D009665E4 /* Launch Screen.storyboard */; };
-		C607922C2746F8AC009665E4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607922B2746F8AC009665E4 /* Onboarding.swift */; };
 		C66AA4C42747EEBC006E45AD /* Onboarding test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66AA4C32747EEBC006E45AD /* Onboarding test.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +22,6 @@
 		BBB698102746A778004F79CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB698132746A778004F79CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C60792292746AA4D009665E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		C607922B2746F8AC009665E4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		C66AA4C32747EEBC006E45AD /* Onboarding test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding test.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 			children = (
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
 				BBB6980E2746A777004F79CB /* ContentView.swift */,
-				C607922B2746F8AC009665E4 /* Onboarding.swift */,
 				C66AA4C32747EEBC006E45AD /* Onboarding test.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				C60792292746AA4D009665E4 /* Launch Screen.storyboard */,
@@ -149,7 +146,6 @@
 			files = (
 				BBB6980F2746A777004F79CB /* ContentView.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,
-				C607922C2746F8AC009665E4 /* Onboarding.swift in Sources */,
 				C66AA4C42747EEBC006E45AD /* Onboarding test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

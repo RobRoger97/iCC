@@ -7,18 +7,41 @@
 
 import SwiftUI
 
-struct OnboardingView2: View {
+struct OnboardingView: View {
     @Binding var showOnboarding: Bool
     
     var body: some View {
         TabView {
+            
+//      Welcome screen
+            VStack {
+                Text("Welcome to iCanCreate")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 1.0)
+                    .padding(.horizontal)
+                    
+                Text("here you can enhance your creativity")
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
+            }
+            .background(
+            Image("background")
+                .scaleEffect(2)
+            )
+            
+//       Onboarding
+            
             ZStack{
                 Image("pinklines")
                     .scaleEffect(1.2)
                     .padding()
-                    .offset(x:-170, y: -200)
+                    .offset(x:-172, y: -215)
                 
-                PageViewTest(
+                PageView(
                 imageName: "Handspink",
                 title: "CHOOSE THE DECK",
                 description: "based on the level you are \n interested to practice on"
@@ -29,8 +52,8 @@ struct OnboardingView2: View {
                 Image("pinklines")
                     .scaleEffect(1.2)
                     .padding()
-                    .offset(x:-102, y: -215)
-            PageViewTest(
+                    .offset(x:-102, y: -235)
+            PageView(
                 imageName: "pencil",
                 title: "LOOK OUT \n FOR THE TOOLS",
                 description: "To play some cards you may need \n extra tools — like pen and paper"
@@ -41,25 +64,32 @@ struct OnboardingView2: View {
                 Image("pinklines")
                     .scaleEffect(1.2)
                     .padding()
-                    .offset(x:-102, y: -215)
-            PageViewTest(
+                    .offset(x:-102, y: -235)
+            PageView(
                 imageName: "Handspink",
                 title: "DISCOVER \n NEW CARDS",
                 description: "by shaking your iPhone and \n generating a new deck of cards"
             )
             }
             
-            ZStack{
-                Image("pinklines")
-                    .scaleEffect(1.2)
-                    .padding()
-                    .offset(x:-102, y: -215)
-            PageViewTest(
-                imageName: "Handspink",
-                title: "SHAKE TO\n RANDOMIZE",
-                description: "based on the level you are \n interested to practice on"
-            )
+            VStack {
+                ZStack{
+                    Image("pinklines")
+                        .scaleEffect(1.2)
+                        .padding()
+                        .offset(x:-100, y: -235)
+                PageView(
+                    imageName: "Handspink",
+                    title: "SHAKE TO\n RANDOMIZE",
+                    description: "based on the level you are \n interested to practice on"
+                )
+                }
+//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+//                    Text("Start")
+//                        .padding(.top)
+//                }
             }
+            
             
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
@@ -67,7 +97,7 @@ struct OnboardingView2: View {
               setupAppearance()
             }
           }
-          
+
           func setupAppearance() {
             UIPageControl.appearance().currentPageIndicatorTintColor = .black
             UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
@@ -75,17 +105,18 @@ struct OnboardingView2: View {
         }
 
 //First onboarding page
-struct PageViewTest: View {
+struct PageView: View {
     let imageName: String
     let title: String
     let description: String
     
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Text(title)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
+                .padding(.top)
             
             Text(description)
                 .font(.title3)
@@ -97,7 +128,7 @@ struct PageViewTest: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250, height: 250)
-                .padding()
+                .padding(.vertical)
         }
     }
 }
@@ -105,8 +136,8 @@ struct PageViewTest: View {
 
 struct OnboardingView2_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView2(showOnboarding: .constant(false)).preferredColorScheme(.light)
-        OnboardingView2(showOnboarding: .constant(false)).preferredColorScheme(.dark)
+        OnboardingView(showOnboarding: .constant(true)).preferredColorScheme(.light)
+        OnboardingView(showOnboarding: .constant(true)).preferredColorScheme(.dark)
     }
 }
 
