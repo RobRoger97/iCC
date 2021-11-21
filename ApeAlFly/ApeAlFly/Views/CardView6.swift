@@ -14,6 +14,14 @@ struct CardView6: View {
                 .resizable()
                 .frame(width: 323, height: 559)
             VStack{
+                Text("\(sixth_card.tag)")
+                    .bold()
+                    .padding(5)
+                    .foregroundColor(.white)
+                    .background(Color.orange)
+                    .cornerRadius(10)
+                    .padding(.trailing,20)
+                    .offset(x:100,y:30)
                 Text("\(sixth_card.titolo)")
                     .font(.title)
                     .bold()
@@ -33,7 +41,7 @@ struct CardView6: View {
             }
             .frame(width: 323, height: 559)
             
-            Text("8/10")
+            Text("8/8")
                 .foregroundColor(.gray)
                 .bold()
                 .offset(y:240)

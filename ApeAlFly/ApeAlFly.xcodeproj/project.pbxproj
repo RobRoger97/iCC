@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4050EB882746B703006412D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4050EB872746B703006412D0 /* Card.swift */; };
-		40E956C1274AF2450048FFEC /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C0274AF2450048FFEC /* TotalView.swift */; };
+		40E956C1274AF2450048FFEC /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C0274AF2450048FFEC /* DeckView.swift */; };
 		40E956C3274AF3260048FFEC /* CardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C2274AF3260048FFEC /* CardView1.swift */; };
 		40E956C5274AF8D10048FFEC /* CardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C4274AF8D10048FFEC /* CardView2.swift */; };
 		40E956C8274AF9DA0048FFEC /* CardView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C7274AF9DA0048FFEC /* CardView3.swift */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		4050EB872746B703006412D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		40E956C0274AF2450048FFEC /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
+		40E956C0274AF2450048FFEC /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
 		40E956C2274AF3260048FFEC /* CardView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView1.swift; path = ApeAlFly/Views/CardView1.swift; sourceTree = SOURCE_ROOT; };
 		40E956C4274AF8D10048FFEC /* CardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView2.swift; path = ApeAlFly/Views/CardView2.swift; sourceTree = SOURCE_ROOT; };
 		40E956C7274AF9DA0048FFEC /* CardView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView3.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			children = (
 				40E956C6274AF8D80048FFEC /* Views */,
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
-				40E956C0274AF2450048FFEC /* TotalView.swift */,
+				40E956C0274AF2450048FFEC /* DeckView.swift */,
 				4050EB872746B703006412D0 /* Card.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				BBB698122746A778004F79CB /* Preview Content */,
@@ -176,7 +176,7 @@
 				40E956D0274AFA290048FFEC /* CardView6.swift in Sources */,
 				40E956D2274AFA380048FFEC /* BasicKnow2.swift in Sources */,
 				40E956CA274AF9F40048FFEC /* BasicKnow1.swift in Sources */,
-				40E956C1274AF2450048FFEC /* TotalView.swift in Sources */,
+				40E956C1274AF2450048FFEC /* DeckView.swift in Sources */,
 				40E956CE274AFA190048FFEC /* CardView5.swift in Sources */,
 				40E956CC274AFA050048FFEC /* CardView4.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,

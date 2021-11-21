@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct TotalView: View {
+struct DeckView: View {
     var body: some View {
         NavigationView{
         ZStack{
@@ -29,12 +29,12 @@ struct TotalView: View {
         .tabViewStyle(.page(indexDisplayMode: .never))
     }
         .navigationBarTitle("Decks")
-        .navigationBarItems(leading: Button(action: {}, label: {Text("Back")}))
+        .navigationBarItems(leading: Button(action: {}, label: {Text("< Back")}))
         }
 }
 }
-struct TotalView_Previews: PreviewProvider {
+struct DeckView_Previews: PreviewProvider {
     static var previews: some View {
-        TotalView()
+        DeckView()
     }
 }

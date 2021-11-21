@@ -14,6 +14,14 @@ struct BasicKnow1: View {
                 .resizable()
                 .frame(width: 323, height: 559)
             VStack{
+                Text("\(basic_know_card.tag)")
+                    .bold()
+                    .padding(5)
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+                    .padding(.trailing,70)
+                    .offset(x:100,y:30)
                 Text("\(basic_know_card.titolo)")
                     .font(.title)
                     .bold()
@@ -29,7 +37,7 @@ struct BasicKnow1: View {
             }
             .frame(width: 323, height: 559)
             
-            Text("3/10")
+            Text("3/8")
                 .foregroundColor(.gray)
                 .bold()
                 .offset(y:240)
