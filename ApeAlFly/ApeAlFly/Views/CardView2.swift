@@ -18,7 +18,7 @@ struct CardView2: View {
                     .bold()
                     .padding(5)
                     .foregroundColor(.white)
-                    .background(Color.red)
+                    .background(second_card.color)
                     .cornerRadius(10)
                     .padding(.trailing,20)
                     .offset(x:100,y:30)

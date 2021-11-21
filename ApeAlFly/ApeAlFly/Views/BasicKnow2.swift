@@ -18,7 +18,7 @@ struct BasicKnow2: View {
                     .bold()
                     .padding(5)
                     .foregroundColor(.white)
-                    .background(Color.blue)
+                    .background(basic_know_card.color)
                     .cornerRadius(10)
                     .padding(.trailing,70)
                     .offset(x:100,y:30)

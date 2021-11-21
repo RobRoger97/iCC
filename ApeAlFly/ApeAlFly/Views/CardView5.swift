@@ -18,7 +18,7 @@ struct CardView5: View {
                     .bold()
                     .padding(5)
                     .foregroundColor(.white)
-                    .background(Color.orange)
+                    .background(fifth_card.color)
                     .cornerRadius(10)
                     .padding(.trailing,20)
                     .offset(x:100,y:30)
