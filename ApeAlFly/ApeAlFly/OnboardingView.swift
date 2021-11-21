@@ -43,7 +43,7 @@ struct OnboardingView: View {
                     .offset(x:-168, y: -238)
                 
                 PageView(
-                imageName: "Handspink",
+                imageName: "Decks",
                 title: "CHOOSE THE DECK",
                 description: "based on the level you are \n interested to practice on", showsDismissButton: false, showOnboarding: $showOnboarding
                 ).padding(.bottom, 70)
