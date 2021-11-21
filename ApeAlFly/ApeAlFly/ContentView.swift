@@ -19,15 +19,16 @@ struct ContentView: View {
     NavigationView {
             
         ZStack {
-            Color.white
-                .ignoresSafeArea()
-            Image("Hands")
-//                .frame(width: 200.0, height: 350.0)
-                .scaleEffect(1.2)
+            Text("Home")
+                .font(.largeTitle)
             }
+        .background(Image("homeBackground")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .scaleEffect(6))
+        .ignoresSafeArea()
         }
-    .navigationTitle("Decks")
-    .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView(showOnboarding: $showOnboarding)
+        .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView(showOnboarding: $showOnboarding)
         })
     }
 }
