@@ -8,19 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		4050EB882746B703006412D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4050EB872746B703006412D0 /* Card.swift */; };
-		40E956BF2747F3EA0048FFEC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956BE2747F3EA0048FFEC /* CardView.swift */; };
+		40E956C1274AF2450048FFEC /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C0274AF2450048FFEC /* TotalView.swift */; };
+		40E956C3274AF3260048FFEC /* CardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C2274AF3260048FFEC /* CardView1.swift */; };
+		40E956C5274AF8D10048FFEC /* CardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C4274AF8D10048FFEC /* CardView2.swift */; };
+		40E956C8274AF9DA0048FFEC /* CardView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C7274AF9DA0048FFEC /* CardView3.swift */; };
+		40E956CA274AF9F40048FFEC /* BasicKnow1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956C9274AF9F40048FFEC /* BasicKnow1.swift */; };
+		40E956CC274AFA050048FFEC /* CardView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956CB274AFA050048FFEC /* CardView4.swift */; };
+		40E956CE274AFA190048FFEC /* CardView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956CD274AFA190048FFEC /* CardView5.swift */; };
+		40E956D0274AFA290048FFEC /* CardView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956CF274AFA290048FFEC /* CardView6.swift */; };
+		40E956D2274AFA380048FFEC /* BasicKnow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E956D1274AFA380048FFEC /* BasicKnow2.swift */; };
 		BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */; };
-		BBB6980F2746A777004F79CB /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980E2746A777004F79CB /* TotalView.swift */; };
 		BBB698112746A778004F79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698102746A778004F79CB /* Assets.xcassets */; };
 		BBB698142746A778004F79CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698132746A778004F79CB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4050EB872746B703006412D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		40E956BE2747F3EA0048FFEC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		40E956C0274AF2450048FFEC /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
+		40E956C2274AF3260048FFEC /* CardView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView1.swift; path = ApeAlFly/Views/CardView1.swift; sourceTree = SOURCE_ROOT; };
+		40E956C4274AF8D10048FFEC /* CardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView2.swift; path = ApeAlFly/Views/CardView2.swift; sourceTree = SOURCE_ROOT; };
+		40E956C7274AF9DA0048FFEC /* CardView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView3.swift; sourceTree = "<group>"; };
+		40E956C9274AF9F40048FFEC /* BasicKnow1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicKnow1.swift; sourceTree = "<group>"; };
+		40E956CB274AFA050048FFEC /* CardView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView4.swift; sourceTree = "<group>"; };
+		40E956CD274AFA190048FFEC /* CardView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView5.swift; sourceTree = "<group>"; };
+		40E956CF274AFA290048FFEC /* CardView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView6.swift; sourceTree = "<group>"; };
+		40E956D1274AFA380048FFEC /* BasicKnow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicKnow2.swift; sourceTree = "<group>"; };
 		BBB698092746A777004F79CB /* ApeAlFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApeAlFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApeAlFlyApp.swift; sourceTree = "<group>"; };
-		BBB6980E2746A777004F79CB /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
 		BBB698102746A778004F79CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB698132746A778004F79CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,12 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40E956BD2747F3D50048FFEC /* View */ = {
+		40E956C6274AF8D80048FFEC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				40E956BE2747F3EA0048FFEC /* CardView.swift */,
+				40E956C2274AF3260048FFEC /* CardView1.swift */,
+				40E956C4274AF8D10048FFEC /* CardView2.swift */,
+				40E956C7274AF9DA0048FFEC /* CardView3.swift */,
+				40E956C9274AF9F40048FFEC /* BasicKnow1.swift */,
+				40E956CB274AFA050048FFEC /* CardView4.swift */,
+				40E956CD274AFA190048FFEC /* CardView5.swift */,
+				40E956CF274AFA290048FFEC /* CardView6.swift */,
+				40E956D1274AFA380048FFEC /* BasicKnow2.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BBB698002746A777004F79CB = {
@@ -63,9 +84,9 @@
 		BBB6980B2746A777004F79CB /* ApeAlFly */ = {
 			isa = PBXGroup;
 			children = (
-				40E956BD2747F3D50048FFEC /* View */,
+				40E956C6274AF8D80048FFEC /* Views */,
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
-				BBB6980E2746A777004F79CB /* TotalView.swift */,
+				40E956C0274AF2450048FFEC /* TotalView.swift */,
 				4050EB872746B703006412D0 /* Card.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				BBB698122746A778004F79CB /* Preview Content */,
@@ -151,10 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB6980F2746A777004F79CB /* TotalView.swift in Sources */,
 				4050EB882746B703006412D0 /* Card.swift in Sources */,
-				40E956BF2747F3EA0048FFEC /* CardView.swift in Sources */,
+				40E956D0274AFA290048FFEC /* CardView6.swift in Sources */,
+				40E956D2274AFA380048FFEC /* BasicKnow2.swift in Sources */,
+				40E956CA274AF9F40048FFEC /* BasicKnow1.swift in Sources */,
+				40E956C1274AF2450048FFEC /* TotalView.swift in Sources */,
+				40E956CE274AFA190048FFEC /* CardView5.swift in Sources */,
+				40E956CC274AFA050048FFEC /* CardView4.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,
+				40E956C3274AF3260048FFEC /* CardView1.swift in Sources */,
+				40E956C8274AF9DA0048FFEC /* CardView3.swift in Sources */,
+				40E956C5274AF8D10048FFEC /* CardView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
