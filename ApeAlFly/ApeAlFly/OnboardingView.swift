@@ -9,10 +9,11 @@ import SwiftUI
 
 struct OnboardingView: View {
     @Binding var showOnboarding: Bool
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
+        NavigationView{
         TabView {
-            
 //      Welcome screen
             VStack {
                 Text("WELCOME TO \n iCanCreate")
@@ -28,6 +29,7 @@ struct OnboardingView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 60)
             }
+            .navigationBarHidden(true)
             .background(
             Image("background")
                 .scaleEffect(2.2)
@@ -35,7 +37,6 @@ struct OnboardingView: View {
             )
             
 //       Onboarding
-            
             ZStack{
                 Image("pinklines")
                     .scaleEffect(1.2)
@@ -65,7 +66,7 @@ struct OnboardingView: View {
                 Image("pinklines")
                     .scaleEffect(1.2)
                     .padding()
-                    .offset(x:-184, y: -238)
+                    .offset(x:-183, y: -238)
                 PageView(
                 imageName: "Handspink",
                 title: "DISCOVER THEM ALL",
@@ -86,20 +87,31 @@ struct OnboardingView: View {
                 )
                 }
             }
-            
-            
         }
+        .navigationBarTitleDisplayMode(.inline)
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationBarItems(trailing:
+                Button("Skip") {
+                showOnboarding.toggle()
+                })
         .tabViewStyle(.page(indexDisplayMode: .always))
         .onAppear {
-              setupAppearance()
-            }
-          }
-
-          func setupAppearance() {
-            UIPageControl.appearance().currentPageIndicatorTintColor = .black
-            UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
-          }
+            setupAppearance()
         }
+    }
+    }
+// Light and dark mode page control colors
+    func setupAppearance() {
+    if colorScheme == .light {
+        UIPageControl.appearance().currentPageIndicatorTintColor = .black
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+    }
+    else {
+        UIPageControl.appearance().currentPageIndicatorTintColor = .white
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.white.withAlphaComponent(0.2)
+    }
+    }
+}
 
 //First onboarding page
 struct PageView: View {
@@ -116,7 +128,7 @@ struct PageView: View {
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .padding(.top)
-            
+                
             Text(description)
                 .font(.title3)
                 .fontWeight(.light)
@@ -145,6 +157,7 @@ struct PageView: View {
         }
     }
 }
+
 
 
 struct OnboardingView2_Previews: PreviewProvider {
