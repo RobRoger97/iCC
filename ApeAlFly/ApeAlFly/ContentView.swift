@@ -18,15 +18,17 @@ struct ContentView: View {
     var body: some View {
     NavigationView {
             
-        ZStack {
-            Text("Home")
-                .font(.largeTitle)
-            }
-        .background(Image("homeBackground")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .scaleEffect(6))
-        .ignoresSafeArea()
+        
+          HomeView()
+//        ZStack {
+//            Text("Home")
+//                .font(.largeTitle)
+//            }
+//        .background(Image("homeBackground")
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fill)
+//                        .scaleEffect(6))
+//        .ignoresSafeArea()
         }
         .fullScreenCover(isPresented: $showOnboarding, content: { OnboardingView(showOnboarding: $showOnboarding)
         })

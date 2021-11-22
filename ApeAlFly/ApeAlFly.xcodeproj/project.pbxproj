@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB98F949274AD0F5009A25AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98F948274AD0F5009A25AA /* HomeView.swift */; };
 		BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */; };
 		BBB6980F2746A777004F79CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6980E2746A777004F79CB /* ContentView.swift */; };
 		BBB698112746A778004F79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB698102746A778004F79CB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB98F948274AD0F5009A25AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BBB698092746A777004F79CB /* ApeAlFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApeAlFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApeAlFlyApp.swift; sourceTree = "<group>"; };
 		BBB6980E2746A777004F79CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				BBB6980C2746A777004F79CB /* ApeAlFlyApp.swift */,
 				BBB6980E2746A777004F79CB /* ContentView.swift */,
+				BB98F948274AD0F5009A25AA /* HomeView.swift */,
 				C66AA4C32747EEBC006E45AD /* OnboardingView.swift */,
 				BBB698102746A778004F79CB /* Assets.xcassets */,
 				C60792292746AA4D009665E4 /* Launch Screen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB6980F2746A777004F79CB /* ContentView.swift in Sources */,
+				BB98F949274AD0F5009A25AA /* HomeView.swift in Sources */,
 				BBB6980D2746A777004F79CB /* ApeAlFlyApp.swift in Sources */,
 				C66AA4C42747EEBC006E45AD /* OnboardingView.swift in Sources */,
 			);
