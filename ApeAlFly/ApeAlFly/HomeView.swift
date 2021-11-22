@@ -30,23 +30,24 @@ struct HomeView: View {
                 .padding(.top, 34.0)
                 .padding()
 
-                ScrollView(.horizontal, showsIndicators: false) {
+//                ScrollView(.horizontal, showsIndicators: false) {
                     
-                    HStack {
+                TabView {
+//                    HStack {
                         
                         DeckView()
                         DeckView()
                         DeckView()
                         DeckView()
                         
-                    }.frame(width: .infinity, height: 500)
-                        .padding(.horizontal)
-                
+//                    }.frame(width: .infinity, height: 500)
+//                        .padding(.horizontal)
+                }.tabViewStyle(.page(indexDisplayMode: .never))
                     
                     
                     
                     
-                }
+//                }
                 
                 
                 VStack {
